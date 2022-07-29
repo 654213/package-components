@@ -1,0 +1,160 @@
+<template>
+  <div>
+    <div class="InformationBar" style="margin-top:-20px">
+      <div id="bar" :class="p.status==2 ? 'barColor1': 'barColor2'" v-for="(p, i) of list1" :key="i">
+        <div id="text">{{ p.information }}</div>
+      </div>
+    </div>
+    <div class="InformationBar" style="margin-top:-20px;">
+      <div id="bar" :class="p.status==2 ? 'barColor1': 'barColor2'" v-for="(p, i) of list2" :key="i">
+        <div id="text">{{ p.information }}</div>
+      </div>
+    </div>
+    <div class="InformationBar" style="margin-top:-20px">
+      <div id="bar" :class="p.status==2 ? 'barColor1': 'barColor2'" v-for="(p, i) of list3" :key="i">
+        <div id="text">{{ p.information }}</div>
+      </div>
+    </div>
+    <div class="InformationBar" style="margin-top:-20px">
+      <div id="bar" :class="p.status==2 ? 'barColor1': 'barColor2'" v-for="(p, i) of list4" :key="i">
+        <div id="text">{{ p.information }}</div>
+      </div>
+    </div>
+    <div class="InformationBar" style="margin-top:-20px; margin-bottom:-20px">
+      <div id="bar" :class="p.status==2 ? 'barColor1': 'barColor2'" v-for="(p, i) of list5" :key="i">
+        <div id="text">{{ p.information }}</div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+//每个数组重复一条数据
+      list1: [
+        {
+          information: "月度发放统计表",
+          status:[1]
+        },
+        {
+          information: "年度发放统计表",
+          status:[2]
+        },
+        {
+          information: "年度发放统计表",
+          status:[1]
+        },
+        {
+          information: "名录发放统计表",
+          status:[2]
+        }
+      ],
+      list2: [
+        {
+          information: "名录发放统计表",
+          status:[2]
+        },
+        {
+          information: "部门月度发放统计表",
+          status:[1]
+        },
+        {
+          information: "部门月度发放统计表",
+          status:[2]
+        },
+        {
+          information: "月度发放统计表",
+          status:[1]
+        }
+      ],
+      list3: [
+        {
+          information: "乡镇发放统计表",
+          status:[1]
+        },
+        {
+          information: "乡镇发放统计表",
+          status:[2]
+        },
+        {
+          information: "部门发放统计表",
+          status:[1]
+        },
+        {
+          information: "部门发放统计表",
+          status:[2]
+        }
+      ],
+      list4: [
+        {
+          information: "月度发放统计表",
+          status:[2]
+        },
+        {
+          information: "年度发放统计表",
+          status:[1]
+        },
+        {
+          information: "年度发放统计表",
+          status:[2]
+        },
+        {
+          information: "名录发放统计表",
+          status:[1]
+        }
+      ],
+      list5: [
+        {
+          information: "名录发放成员信息",
+          status:[1]
+        },
+        {
+          information: "乡镇月度发放统计表",
+          status:[2]
+        },
+        {
+          information: "名录月度发放统计表",
+          status:[1]
+        },
+        {
+          information: "部门月度发放统计表",
+          status:[2]
+        }
+      ],
+    };
+  },
+};
+</script>
+<style>
+.InformationBar {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+}
+#bar {
+  width: 310px;
+  height: 40px;
+  /* background: rgba(20, 146, 255, 0.1); */
+  border-radius: 3px;
+  margin: 20px 19px 20px 20px;
+}
+#text {
+  width: 140px;
+  height: 21px;
+  font-family: PingFangSC-Semibold;
+  font-size: 15px;
+  color: #333333;
+  font-weight: 600;
+  margin:9px 175px 10px 15px ;
+}
+.barColor1{
+background: rgba(255,155,20,0.10);
+
+}
+.barColor2{
+background: rgba(20,146,255,0.10);
+}
+</style>

@@ -1,0 +1,159 @@
+{
+    "businessCode": [{
+            "name": "社会保障持卡人数(人)",
+            "num": "601441",
+            "color": "#EE8F41",
+            "boxShadow": "0px 10px 25px 0px rgba(238,143,65,0.5)"
+        },
+        {
+            "name": "安吉县参加养老保险总人数(人)",
+            "num": "390048",
+            "color": "#7758E1",
+            "boxShadow": " 0px 10px 25px 0px rgba(119,88,225,0.5)"
+        },
+        {
+            "name": "企业职工基本养老保险在职人数(人)",
+            "num": "163600",
+            "color": " #0AA783",
+            "boxShadow": "0px 10px 25px 0px rgba(10,167,131,0.5)"
+        },
+        {
+            "name": "安吉县最低工资标准(元)",
+            "num": "2070",
+            "color": "#1A8FE7",
+            "boxShadow": " 0px 10px 25px 0px rgba(26,143,231,0.5)"
+        }
+    ],
+    "fitnessCode": [{
+            "name": "国民体质监测合格率",
+            "num": "93.8%",
+            "color": " #EE8F41",
+            "boxShadow": "0px 10px 25px 0px rgba(238,143,65,0.5)"
+        },
+        {
+            "name": "体育场地面积(k㎡)",
+            "num": "1857491",
+            "color": "#1A8FE7",
+            "boxShadow": "0px 10px 25px 0px rgba(26,143,231,0.5)"
+        },
+        {
+            "name": "人均体育场地面积(人/㎡)",
+            "num": "3.16",
+            "color": "#00B7A8",
+            "boxShadow": " 0px 10px 25px 0px rgba(0,183,168,0.5)"
+        },
+        {
+            "name": "群众体育举办赛事活动场次(场次)",
+            "num": "30",
+            "color": "#8056DC",
+            "boxShadow": "0px 10px 25px 0px rgba(128,86,220,0.5)"
+        }
+    ],
+  "earlyCode": [
+    {
+            "name": "安吉县老年人总数(人)",
+            "num": "114080",
+            "color": " #EE8F41",
+            "boxShadow": "0px 10px 25px 0px rgba(238,143,65,0.5)"
+        },
+        {
+            "name": "安吉县养老机构床位数(张)",
+            "num": "3270",
+            "color": "#1A8FE7",
+            "boxShadow": "0px 10px 25px 0px rgba(26,143,231,0.5)"
+        },
+        {
+            "name": "入住养老机构老年人数(人)",
+            "num": "883",
+            "color": "#6A69F1",
+            "boxShadow": " 0px 10px 25px 0px rgba(106,105,241,0.5)"
+        },
+        {
+            "name": "养老机构护理员人数(人)",
+            "num": "182",
+            "color": "#00B7A8",
+            "boxShadow": "0px 10px 25px 0px rgba(0,183,168,0.5)"
+        }
+    ],
+  "goCode": [
+    {
+      "name": "公交客运站(座)",
+      "num": "100",
+      "color": " #EE8F41",
+      "boxShadow": "0px 10px 25px 0px rgba(238,143,65,0.5)"
+    },
+    {
+      "name": "客运车辆(辆)",
+      "num": "722",
+      "color": "#1A8FE7",
+      "boxShadow": "0px 10px 25px 0px rgba(26,143,231,0.5)"
+    },
+    {
+      "name": "客运线路(条)",
+      "num": "214",
+      "color": "#00B7A8",
+      "boxShadow": " 0px 10px 25px 0px rgba(0,183,168,0.5)"
+    },
+    {
+      "name": "驾驶员人数(人)",
+      "num": "734",
+      "color": "#E55E85",
+      "boxShadow": "0px 10px 25px 0px rgba(229,94,133,0.5)"
+    },
+    {
+      "name": "近7天长运出行量",
+      "num": "1932",
+      "color": " #6A69F1",
+      "boxShadow": "0px 10px 25px 0px rgba(106,105,241,0.5)"
+    },
+    {
+      "name": "近7天客运出行量",
+      "num": "501",
+      "color": "#7AA743",
+      "boxShadow": "0px 10px 25px 0px rgba(122,167,67,0.5)"
+    },
+    {
+      "name": "近7天定制BUS出行量",
+      "num": "2835",
+      "color": "#BAA011",
+      "boxShadow": " 0px 10px 25px 0px rgba(186,160,17,0.5)"
+    }
+  ],
+  "tourismCode": [{
+                "name": "旅游客流量(人)",
+             "num": "2537.38",
+               "color": "#EE8F41",
+               "boxShadow": "0px 10px 25px 0px rgba(238,143,65,0.5)"
+           },
+            {
+                  "name": "旅游总收入(万元)",
+                "num": "349.4",
+                "color": "#1A8FE7",
+                "boxShadow": "0px 10px 25px 0px rgba(26,143,231,0.5)"
+          },
+            {
+                "name": "过夜游客人数(人)",
+               "num": "1325.5",
+               "color": "#4C6E97",
+               "boxShadow": " 0px 10px 25px 0px rgba(76,110,151,0.5)"
+           },
+           {
+                  "name": "全县旅游景区门票收入(万元)",
+                "num": "7.33",
+                "color": " #00B7A8",
+               "boxShadow": " 0px 10px 25px 0px rgba(0,183,168,0.5)"
+           },
+           {
+                  "name": "旅游人均消费金额(元)",
+                "num": "1377",
+                "color": "#E55E85",
+                "boxShadow": "0px 10px 25px 0px rgba(229,94,133,0.5)"
+           },
+            {
+                  "name": "旅游产业附加值(万元)",
+                "num": "2346",
+                "color": "#6A69F1",
+                "boxShadow": "0px 10px 25px 0px rgba(106,105,241,0.5)"
+            }
+  ]
+}

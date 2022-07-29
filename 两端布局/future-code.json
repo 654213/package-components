@@ -1,0 +1,28 @@
+{
+    "communityCode": [{
+            "name": "未来社区数(个)",
+            "num": 2,
+            "color": "#5352FF",
+            "boxShadow": "0px 10px 25px 0px rgba(83,82,255,0.5)"
+        },
+        {
+            "name": "受益人数(人)",
+            "num": 12477,
+            "color": "#FF7D57",
+            "boxShadow": "0px 10px 25px 0px rgba(255,125,87,0.5)"
+        }
+    ],
+    "villageCode": [{
+            "name": "行政村数量(个)",
+            "num": 169,
+            "color": "#5352FF",
+            "boxShadow": "0px 10px 25px 0px rgba(83,82,255,0.5)"
+        },
+        {
+            "name": "农村户籍人数(万人)",
+            "num": 29.52,
+            "color": "#34B966",
+            "boxShadow": "0px 10px 25px 0px rgba(52,185,102,0.5)"
+        }
+    ]
+}
